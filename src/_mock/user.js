@@ -19,4 +19,3 @@ export const users = [...Array(24)].map(() => ({
   status: sample(['Active', 'Pending']),
   created: faker.date.past().toLocaleString(), // Includes both date and time
 }));
-ta
